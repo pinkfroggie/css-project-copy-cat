@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar</title>
-    <link rel="stylesheet" href="style.css">
+    <title>copycat</title>
+    <link rel="stylesheet" src="style.css">
     <<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap" rel="stylesheet">
@@ -13,26 +13,127 @@
 <body>
     <!-- nav bar -->
     <header>
-    <nav>
-    <ul>
-        <li><a href="#">Popular</a></li>
-        <li><a href="#">Latest</a></li>
-        <li><a href="#">Sign In</a></li>
-        <li><a href="#">Subscribe</a></li>
-      </ul>
+    <nav class="homepageNav">
+        <ul class="homepageNavLeft">
+            <li>Popular</li>
+            <li>Latest</li>
+        </ul>
+        <div class="homepageNavMiddle">The Atlantic</div>
+            <ul class="homepageNavRight">
+                <li>Sign In</li>
+                <li>Subscribe</li>
+            </ul>
     </nav>
         <!-- tite The Atlantic -->
+<div>
     <h1>A</h1>
     <h2>The Atlantic</h2>
     </header>
+</div>
 
-    <!-- inline block articles -->
-    <article class="left articles">
-    <img src="https://placedog.net/296/167" alt="placeholder">
+
+<section class="homepageTop">
+    <div class="topLeft">
+        <ul class="leftArticleMain">
+            <li class="leftArticles">
+    <article class="leftArticles">
+        <img src="https://placedog.net/296/167" alt="placeholder">
+        <div>
+            <h1 class="leftArticleTitles">Article Title</h1>
+        </div>
+        <div class="sideArticleAuthors">Author Name</div>
     </article>
+
+</li>
+
+<li class="leftArticles">
+    <article class="leftArticles">
+        <img src="https://placedog.net/296/167" alt="placeholder">
+        <div>
+            <h1 class="leftArticleTitles">Article Title</h1>
+        </div>
+        <div class="articleAuthors">Author Name</div>
+    </article>
+
+</li>
+</ul>
     <!-- article layout: pic, title, author -->
-    <!-- left side 2 articles -->
     <!-- middle main article. big pic, big title, sub title, author -->
+    <div class="topMain">
+        <article class="mainArticle">
+            <img src="https://placedog.net/354/198" alt="placeholder">
+            <h1 class="mainArticleTitle">
+                Article Title
+            </h1>
+            <p class="mainArticleQuote">
+                Roquefort cauliflower cheese fromage frais. Port-salut parmesan squirty cheese stilton pecorino cheesecake brie cheese and wine.
+            </p>
+            <div class="articleAuthors">
+                Author Name
+            </div>
+        </article>
+
+    </div>
+
     <!-- right side 4 articles. small pics -->
+    <div class="topRight">
+        <ul class="rightArticleMain"> 
+        <li class="rightArticles">  
+         <article class="smallArticleRoot">
+             <div>
+                <h2>Title 1</h2>
+            </div>
+            <div class="articleAuthors">
+                Author Name
+            </div>
+        </div>
+            <img src="https://placedog.net/86/86" alt="placeholder">
+        </article>
+
+    </li>
+    
+    <li class="rightArticles">  
+        <article class="smallArticleRoot">
+            <div>
+               <h2>Title 1</h2>
+           </div>
+           <div class="articleAuthors">
+               Author Name
+           </div>
+       </div>
+           <img src="https://placedog.net/86/86" alt="placeholder">
+       </article>
+ 
+   </li>
+
+   <li class="rightArticles">  
+    <article class="smallArticleRoot">
+        <div>
+           <h2>Title 1</h2>
+       </div>
+       <div class="articleAuthors">
+           Author Name
+       </div>
+   </div>
+       <img src="https://placedog.net/86/86" alt="placeholder">
+   </article>
+
+</li>
+
+<li class="rightArticles">  
+    <article class="smallArticleRoot">
+        <div>
+           <h2>Title 1</h2>
+       </div>
+       <div class="articleAuthors">
+           Author Name
+       </div>
+   </div>
+       <img src="https://placedog.net/86/86" alt="placeholder">
+   </article>
+
+</li>
+    </ul>
+    </div>
 </body>
 </html>
