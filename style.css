@@ -1,9 +1,5 @@
 /* css */
 
-.homepageNav {
-    position: sticky;
-    top: -164px;
-}
 
 .homepageNavLeft {
     display: flex;
@@ -66,7 +62,7 @@ li {
 }
 
 .mainArticleTitle {
-    font-family: AGaramondPro,Adobe Garamond Pro,garamond,Times,serif;
+    font-family: Garamond Pro,garamond,Times,serif;
     font-size: 32px;
     line-height: 40px;
     font-weight: 400;
@@ -74,7 +70,7 @@ li {
 }
 
 .mainArticleQuote {
-    font-family: AGaramondPro,Adobe Garamond Pro,garamond,Times,serif;
+    font-family: garamond,Times,serif;
     font-size: 22px;
     line-height: 30px;
     margin: 0 0 12PX;
@@ -86,7 +82,7 @@ li {
 }
 
 .articleAuthors {
-    font-family: Graphik,-apple-system,blinkmacsystemfont,roboto,helvetica neue,segoe ui,arial,sans-serif;
+    font-family: roboto,helvetica neue,segoe ui,arial,sans-serif;
     font-size: 11px;
     font-weight: 600px; 
     letter-spacing: 1px;
